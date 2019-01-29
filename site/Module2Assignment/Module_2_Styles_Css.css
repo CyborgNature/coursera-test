@@ -1,0 +1,249 @@
+*{
+	box-sizing: border-box;
+
+}
+h1{
+	margin-left: 44%;
+	font-family: sans-serif;
+}
+p.p{
+  
+  border: 1px solid black;
+  padding-top: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  background-color: gray;
+  font-family: sans-serif;
+    
+ }
+ 
+div#maindiv{
+/*background-color:#00FFFF;*/
+width: 100%;
+margin-top: 10%;
+margin-left: 2%;
+}
+p.pa{
+	border: 1px solid black;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+p#p1a{
+
+   background-color: pink;
+}
+p#p2a{
+	 
+	 background-color: #A52A2A;
+}
+p#p3a{
+
+ background-color: #DEB887;	
+}
+
+@media(min-width: 992px){
+
+	div.dp{
+
+   /* background-color: red;*/
+	
+	float: left;
+	position: relative;
+	margin-right: 2%;
+   
+   width: 30%;
+   }
+
+
+   
+  
+
+	p#p1a{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	padding-top: .5%;
+	padding-bottom:.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+p#p2a{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	padding-top: .5%;
+	padding-bottom:.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+p#p3a{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	padding-top: .5%;
+	padding-bottom:.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+}
+
+@media(min-width: 768px ) and (max-width: 991px){
+
+	 div.dp{
+    	position: relative;
+    }
+    
+    div#divp1,div#divp2{
+    	width: 40%;
+    	float: left;
+    	/*background-color: red;*/
+    	
+    }
+    
+   
+   
+
+    div#divp1{
+      margin-left: 5%;
+      margin-right: 4%;
+    }
+    div#divp2{
+    	margin-right: 5%;
+    
+    }    
+  
+   div#divp3{
+    	width: 84%;
+    	position: relative;
+    	float: left;
+    	margin-left: 5%;
+    	margin-top: 0%;
+        margin-right: 0%;
+    	/*background-color: red;*/
+    }
+
+  p#p1{
+		
+		width: 100%;
+		
+			
+     	  	
+	}
+
+	p#p2{
+		
+		width: 100%;
+		
+		
+	}
+   
+	p#p3{
+        
+		width: 100%;
+			
+		
+	}
+	p#p1a{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	padding-top: .5%;
+	padding-bottom:.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+    }
+    p#p2a{
+    position: absolute;
+	top: 0%;
+	right: 0%;
+	padding-top: .5%;
+	padding-bottom:.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+
+    }
+    p#p3a{
+    position: absolute;
+	top: 0%;
+	right: 0%;
+	padding-top: .5%;
+	padding-bottom:.5%;
+	padding-left: 7%;
+	padding-right: 7%;
+    }
+  
+}
+
+/* for small device */
+@media(max-width: 767px){
+
+    div.dp{
+    	
+    	position: relative;
+    	width: 70%;
+    	margin-left: 13%;
+    	float: left;
+    	margin-top: 2%;
+    }
+ 
+   
+  p#p1{
+		/*position: relative;*/
+		width: 100%;
+
+
+
+	}
+
+	p#p2{
+	
+			width: 100%;
+		
+		
+	}
+  	p#p3{
+
+        width: 100%;
+			
+		
+	}
+	p#p1a{
+	padding-top: .5%;
+	padding-bottom:.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+
+    position: absolute;
+	top: 0%;
+	right: 0%;
+	
+	}
+    p#p2a{
+   
+	padding-top: .5%;
+	padding-bottom:.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+
+    position: absolute;
+	top: 0%;
+	right: 0%;
+	
+     
+    }
+    p#p3a{
+  	padding-top: .5%;
+	padding-bottom:.5%;
+	padding-left: 7%;
+	padding-right: 7%;
+    
+    position: absolute;
+	top: 0%;
+	right: 0%;
+	
+    }
+  
+}
